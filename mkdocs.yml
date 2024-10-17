@@ -74,5 +74,8 @@ plugins:
       enabled: true
       tags: false # 是否在文章顶部显示标签
   - search:
-      jieba_dict: dict.txt  # 强化中文搜索
+      jieba_dict:  # 强化中文搜索
   - roamlinks 
+  - glightbox # 优化图片显示 
+extra_css:
+  - stylesheets/extra.css # 优化表格显示

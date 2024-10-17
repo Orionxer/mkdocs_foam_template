@@ -4,4 +4,5 @@ mkdocs-material # material 主题
 mkdocs-roamlinks-plugin
 pymdown-extensions
 jieba # 强化中文搜索
+mkdocs-glightbox # 优化图片显示
 # mkdocs-cinder # 取消注释安装cinder主题

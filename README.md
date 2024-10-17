@@ -18,6 +18,8 @@
 ## 本地部署
 > 默认使用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)主题及其插件，如果需要更换主题则需要修改`requirements.txt`和`mkdocs.yml`以及`.github/workflows/ci.yml`对应的内容
 ## 在线部署
+![设置Workflow权限](docs/images/workflow_permissions.png)
+![部署分支](docs/images/pages_branch.png)
 ## 域名设置
 ## 协议说明
 ## 参考
