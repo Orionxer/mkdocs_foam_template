@@ -1,4 +1,8 @@
-# Welcome to MkDocs
+# Home
+
+添加头部信息
+
+添加完整Markdown语法以及预览效果
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

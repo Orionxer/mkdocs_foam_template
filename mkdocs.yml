@@ -1,1 +1,78 @@
+# 官方文档
+# https://www.mkdocs.org/getting-started/
+# https://squidfunk.github.io/mkdocs-material/setup/
+
 site_name: Mkdocs_Foam_Template
+# site_url: https://example.com
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default # 浅色模式
+      toggle:
+        icon: material/weather-night
+        name: 切换深色模式
+      primary: teal   # 主题颜色
+      accent: green
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: 切换浅色模式
+      primary: teal   # 主题颜色
+      accent: green
+  #  favicon: attachment/portrait.png
+  language: zh
+  features:
+    - navigation.expand 
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    - navigation.tabs
+    # - navigation.tabs.sticky # 固定显示顶部栏
+    - navigation.indexes
+    # - navigation.footer
+    - navigation.path
+    - navigation.sections
+    - content.code.copy # 代码复制按钮
+    - content.footnote.tooltips # 脚注提示
+markdown_extensions: 
+  - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: false
+  - admonition
+  - footnotes
+  - meta
+  - pymdownx.arithmatex:
+      generic: true  # 启用 MathJax
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      # clickable_checkbox: true // 是否可选
+extra_javascript: # 显示数学公式js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+plugins:
+  - tags:         # material主题自带，其他主题可能需要注释tags功能
+      enabled: true
+      tags: false # 是否在文章顶部显示标签
+  - search:
+      jieba_dict: dict.txt  # 强化中文搜索
+  - roamlinks 
