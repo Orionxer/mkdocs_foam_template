@@ -1,0 +1,26 @@
+{
+    "Metadata": {
+        "scope": "markdown",
+        "prefix": "/meta",
+        "description": "创建这条笔记的元数据",
+        "body": [
+            "---", // 头部信息开始
+            "title: ${TM_FILENAME_BASE}", // 默认为文件名称
+            "date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}", // 自动生成日期
+            "type: ${2|DailyNote,TODO,软件,Other|}", // 此处添加新的type
+            "tags:",
+            "  - ${3|C,CPP|}", // 此处添加新的tags
+            "---", // 头部信息结束
+            "", // 换行
+            "# ${TM_FILENAME_BASE}" // 一级标题
+        ]
+    },
+    "Time Stamp": {
+    "scope": "markdown",
+    "prefix": "/stamp",
+    "description": "在此处插入一条时间戳",
+    "body": [
+        "This Note ${1|Updated|} at : $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE, $CURRENT_HOUR: $CURRENT_MINUTE"
+    ],
+}
+}

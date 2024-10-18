@@ -3,4 +3,26 @@
         "_site/**": true,
         "**/.git": false
     },
+    "files.insertFinalNewline": true,
+    "foam.openDailyNote.directory": "docs",
+    "foam.openDailyNote.filenameFormat": "'DailyNote'-yyyy-mm-dd", // Eg.: DailyNote-2022-01-13.md
+    "foam.graph.style": {
+        "fontSize": 13,
+        "lineColor": "#277da1",
+        "lineWidth": 0.6,
+        "background": "#202020",
+        // "highlightedForeground": "#C07AFAFF",
+        "highlightedForeground": "#f9c74fFF",
+        // "highlightedForeground": "#856DFFFF",
+        "particleWidth": 1.5,
+        "node": {
+            // "note": "#C5ECFCFF",
+            "placeholder": "#4855E8FF",
+            "tag": "#FF9900FF",
+            "feature": "#E15858FF",
+            "todo": "#54C738FF",
+            "DailyNote": "#F98AA4FF",
+            "Other": "#E7E752FF"
+        }
+    }
 }

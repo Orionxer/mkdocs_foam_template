@@ -5,18 +5,53 @@
 ![GitHub License](https://img.shields.io/github/license/orionxer/mkdocs_foam_template)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/mkdocs)
 
-一款自动管理并部署个人知识库的模板仓库。基于[Foam](https://github.com/foambubble/foam)管理个人笔记，通过[MkDocs](https://www.mkdocs.org/getting-started/)部署至云端。
+一款自动管理并部署个人知识库的模板仓库。基于[Foam](https://github.com/foambubble/foam)管理个人笔记，通过[MkDocs](https://www.mkdocs.org/getting-started/)部署至云端。是、
 
-[在线Demo预览](https://orionxer.github.io/mkdocs_foam_template)
+[在线预览](https://orionxer.github.io/mkdocs_foam_template)
 
 知识图谱预览
 
+> [!TIP]
+> Optional information to help a user be more successful.
+
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+
 ## 快速开始
+> [!IMPORTANT]  
+> 使用该仓库默认你已经熟悉`VSCode`并了解`Git`的相关知识以及操作。`VSCode`安装
+[Foam](https://github.com/foambubble/foam)插件。
+
+### 安装VSCode插件
+- Foam
+- Markdown All in One
+- Markdown Footnotes
+- Markdown Preview Enhanced
+- Markdown Preview Github Styling
+- Prettier - Code formatter
+- Flutter Color
+
+### 下载仓库
+```sh
+git clone https://github.com/Orionxer/mkdocs_foam_template
+```
+也可以选择`Fork`或者使用模板创建自己的仓库，再下载到本地
+![通过模板创建仓库](docs/images/use_template.png)
+
+### 使用
+通过`VSCode`打开该项目
+
+
 
 ## 环境依赖
 ## 效果预览
 ## 本地部署
-> 默认使用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)主题及其插件，如果需要更换主题则需要修改`requirements.txt`和`mkdocs.yml`以及`.github/workflows/ci.yml`对应的内容
+> [!NOTE]  
+> 默认使用[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)主题，如果需要更换主题则需要修改`requirements.txt`和`mkdocs.yml`以及`.github/workflows/ci.yml`对应的内容
 ## 在线部署
 ![设置Workflow权限](docs/images/workflow_permissions.png)
 ![部署分支](docs/images/pages_branch.png)
