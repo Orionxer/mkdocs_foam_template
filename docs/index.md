@@ -21,31 +21,38 @@ tags:
 - [x] 已完成的项目
 - [ ] 未完成的项目
 
-## 3.代码
-### 3.1 行内代码
+## 3.双向链接
+- [[DailyNote-2024-10-15]]
+- [[知识库待办列表]]
+- [[Sentence-2024-09]]
+- [[C语言回调函数]]
+- [[python回调函数]]
+
+## 4.代码
+### 4.1 行内代码
 安装`mkdocs`要求`Python`版本大于等于3.8
-### 3.2 代码块
+### 4.2 代码块
 单行代码
 ```sh
 pip install -U -r requirements.txt
 ```
 多行代码带标题
 ```c title="demo.c"
-/******************************************************
+/********************************
  * @brief   最简单的C函数
  * @note    没有需要注意的
- ******************************************************/
+ ********************************/
 for (size_t i = 0; i < 5; i++)
 {
     printf("Hello World\n");   
 }
 ```
 
-## 4.图片
+## 5.图片
 
 ![FreeRTOS调试效果](images/freertos_debug.png)
 
-## 5.数学公式
+## 6.数学公式
 
 Inline math: $x^2$
 
@@ -59,27 +66,20 @@ $$
 \left( \sum_{k=1}^n b_k^2 \right)
 $$
 
-## 6.双向链接
-- [[DailyNote-2024-10-15]]
-- [[知识库待办列表]]
-- [[about]]
-- [[Sentence-2024-09]]
-- [[C语言回调函数]]
-- [[python回调函数]]
-
 ## 7.表格
 ### Git Commit常用Emoji
 
-| Emoji |      描述      |           Description            |
+| Emoji |      描述      |           Demo            |
 | :---: | :------------: | :------------------------------: |
-|   🎉   |   创建新工程   |          Beginaproject           |
-|   ✨   |     新功能     |       Introducenewfeatures       |
-|   🐛   |    修复Bug     |             Fixabug              |
-|   🔀   |    合并分支    |          Mergebranches           |
-|   ⚡️   |    性能提升    |        Improveperformance        |
-|   ✅   |    通过测试    |     Add,update,orpasstests.      |
-|   ♻️   |      重构      |           Refactorcode           |
-|   🔥   | 删除代码或文件 |        Removecodeorfiles         |
-|   📝   | 更新文档或协议 |    Addorupdatedocumentation.     |
-|   🔖   |    发布版本    |       Release/Versiontags        |
-|   💡   |    增加注释    | Addorupdatecommentsinsourcecode. |
+|   🎉   |   创建新工程   |        🎉 Initial Commit           |
+|   ✨   |     新功能     |       ✨ Added XXX       |
+|   🐛   |    修复Bug     |        🐛 Fixed XXX              |
+|   🔀   |    合并分支    |          🔀 Merged Branch XXX           |
+|   ⚡️   |    性能提升    |        ⚡️ Improved XXX        |
+|   ✅   |    通过测试    |         ✅ Passed XXX tests   |
+|   ♻️   |      重构      |           ♻️ Refactored XXX        |
+|   🔥   | 删除代码或文件 |        🔥 Removed XXX         |
+|   📝   | 更新文档或协议 |    📝 Added/Updated License     |
+|   🙈   | 忽略文件(夹) |    🙈 Ignored XXX     |
+|   🔖   |    发布版本    |       🔖 Released XXX Version        |
+|   💡   |    增加注释    |      💡 Commented XXX    |

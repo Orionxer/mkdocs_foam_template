@@ -6,3 +6,4 @@ type: Other
 
 # tips
 
+## Markdown预览快捷键
