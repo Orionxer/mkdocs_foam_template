@@ -8,8 +8,6 @@ tags:
 
 # Sentence-2024-09
 
-# Sentence-2024-09
-
 该折叠块只适用于[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)主题，并不兼容原生Markdown
 
 ### 1st
